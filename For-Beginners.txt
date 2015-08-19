@@ -1,0 +1,25 @@
+How to install Repositoriy.
+ 
+Watch this video if you don´t understand: https://www.youtube.com/watch?v=SwK2dPFXhpU
+
+1. Open your terminal on your Linux or Mac 
+2. Install Git with this code: sudo apt-get install git
+3. Give your password: *********
+4. Wait a few seconds for it to install
+
+5. Once you have installd Git, open your browser and sign up or log in. 
+6. Set up your git username and email by giving this two commands: git config --global user.name "your username"
+                                                                   git config --global user.email "your email"
+7. Now go to GitHub and create a new repository 
+8. Pick a name and description for your repository and click create
+9. After you have created a repository it is time for a directory 
+10. Write the code: mkdir + "the name of your repository" 
+11. Once you have done that copy the codes GitHub provided to you under "...or creat a repository in the command line" one by one.
+    You also have them here --> echo "# "the name of YOUR repository" >> README.md
+                                git init
+                                git add README.md
+                                git commit -m "Write what ever you want" 
+  Copy this one from GitHub-->  git remote add origin https://github.com/D4ni3l96/For-beginners.git
+                                git push -u origin master
+
+
